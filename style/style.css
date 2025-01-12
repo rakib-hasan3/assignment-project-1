@@ -105,7 +105,7 @@ header {
                        /*Vision-bd  */
                        .vision-section {
                         margin-top: 100px;
-                        text-align: center;
+                       
                     }
             
                     .vision-section h2 {
@@ -308,6 +308,97 @@ header {
                 display: inline-block;
                 margin-left: 15px;
             }
-    
+    /* donation section */
+   
+      .donate-container{
+        background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1080px;
+      }
+      .donation-container {
+        text-align: center;
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+      
+      h1 {
+        font-size: 28px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+      }
+      
+      .description {
+        font-size: 16px;
+        color: #666;
+        line-height: 1.5;
+        margin-bottom: 30px;
+      }
+      
+      .amount-buttons {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+      }
+      
+      .amount {
+        padding: 15px 30px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        border: 2px solid #e0e0e0;
+        border-radius: 8px;
+        background-color: #fff;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      
+      .amount:hover {
+        border-color: #666;
+      }
+      
+      .selected {
+        background-color: #d4f0e4;
+        border-color: #a0d6b4;
+        color: #333;
+      }
+      
+      .custom-amount {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+        border: 2px solid #e0e0e0;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        outline: none;
+        transition: border-color 0.3s ease;
+      }
+      
+      .custom-amount:focus {
+        border-color: #666;
+      }
+      
+      .donate-button {
+        background-color: #006d4e;
+        color: #fff;
+        border: none;
+        padding: 15px 30px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .donate-button:hover {
+        background-color: #004f38;
+      }
              
     
